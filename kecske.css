@@ -1,0 +1,32 @@
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+header p{
+    text-align: justify;
+}
+header{
+    border: 1px solid black;
+}
+aside#bal{
+    border: 1px solid black;
+    flex: 0 0 33%
+}
+aside#jobb{
+    border: 1px solid black;
+    flex: 0 0 33%;
+}
+article{
+    flex: 0 0 33%;
+}
+aside#bal img{
+    width: 200px;
+}
+.kiemel{
+    border: 2px solid red;
+    cursor: grab;
+}
